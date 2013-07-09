@@ -1,0 +1,40 @@
+{
+    "name": "benn0r/vocablearner-server",
+    "description": "Vocablearner",
+    "license": "BSD-3-Clause",
+    "homepage": "http://www.ben0r.me/",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.2.*",
+        "doctrine/doctrine-orm-module": "0.*",
+        "zendframework/zend-developer-tools": "dev-master",
+        "zf-commons/zfc-user-doctrine-orm": "dev-master",
+        "zendframework/zendservice-recaptcha": "dev-master",
+        "rwoverdijk/assetmanager": "*",
+        "ghislainf/zf2-whoops": "dev-master",
+        "twitter/bootstrap": "dev-3.0.0-wip",
+        "leafo/lessphp": "*",
+        "natxet/CssMin": "dev-master",
+        "jquery/jquery": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/natxet/CssMin"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jquery/jquery",
+                "version": "1.9.1",
+                "dist": {
+                    "url": "http://code.jquery.com/jquery.js",
+                    "type": "file"
+                }
+            }
+        }
+    ]
+}
